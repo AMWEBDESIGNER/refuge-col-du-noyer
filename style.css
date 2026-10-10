@@ -1,3 +1,638 @@
-:root{--paper:#f1eee5;--ink:#26312c;--orange:#df582d;--moss:#63775a;--line:#b5b7ae}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Libre Franklin",sans-serif}header{height:84px;display:flex;align-items:center;justify-content:space-between;padding:0 4vw;border-bottom:1px solid var(--line);position:absolute;z-index:2;width:100%;color:#fff}.sign{font:700 1rem/.9 "Libre Franklin",sans-serif;letter-spacing:-.07em;text-decoration:none;color:inherit;position:relative}.sign small{font:.45rem "DM Mono",monospace;letter-spacing:.1em;display:block;margin-bottom:3px}.sign i{font:.52rem "DM Mono",monospace;font-style:normal;letter-spacing:.1em;position:absolute;left:102%;top:45%}nav{display:flex;gap:2rem}nav a,.phone{font:.62rem "DM Mono",monospace;text-transform:uppercase;letter-spacing:.08em;color:inherit;text-decoration:none}.phone{border:1px solid currentColor;padding:.6rem .8rem}.hero{min-height:100vh;position:relative;color:#fff;overflow:hidden}.hero figure{position:absolute;margin:0;inset:0}.hero figure:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,30,26,.82),rgba(20,30,26,.15) 70%)}.hero img{width:100%;height:100%;object-fit:cover;filter:saturate(.65)}.hero>div{position:relative;z-index:1;padding:25vh 9vw}.hero p,.label{font:.62rem "DM Mono",monospace;letter-spacing:.13em;text-transform:uppercase;margin:0 0 2rem}.hero h1,.feature h2,.road h2,.contact h2{font:400 clamp(3.6rem,8vw,9rem)/.85 "Old Standard TT",serif;letter-spacing:-.08em;margin:0}.hero h1 em,.road h2 em,.contact h2 em{color:#ffb590}.hero>div a{display:inline-block;margin-top:6rem;color:#fff;text-decoration:none;font:.63rem "DM Mono",monospace;text-transform:uppercase;letter-spacing:.1em}.hero>div a b{font-size:1.5rem;margin-left:.5rem;color:#ffb590}.elevation{position:absolute;right:4vw;bottom:4vw;font:700 clamp(3rem,7vw,7rem) "Libre Franklin",sans-serif;letter-spacing:-.11em;opacity:.85}.feature{padding:12vw 7vw;display:grid;grid-template-columns:12% 1fr 40%;gap:5vw}.line-number{font:2rem "Old Standard TT",serif;color:var(--orange);border-top:2px solid var(--orange);padding-top:.5rem}.feature h2{font-size:clamp(3.2rem,5vw,5.6rem)}.feature div>p:not(.label){font-size:.95rem;line-height:1.7;max-width:380px;margin-top:3rem}.feature figure{margin:0;align-self:end}.feature img{width:100%;height:34vw;object-fit:cover;filter:saturate(.65)}figcaption{font:.6rem "DM Mono",monospace;text-transform:uppercase;letter-spacing:.1em;margin-top:.6rem}.road{background:var(--moss);color:var(--paper);display:grid;grid-template-columns:45% 55%;padding:11vw 10vw;align-items:center}.road-sign{width:min(30vw,360px);aspect-ratio:1/1;background:var(--orange);border:7px solid var(--paper);outline:1px solid var(--orange);margin:auto;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}.road-sign b{font:700 1.1rem "Libre Franklin",sans-serif;border-bottom:2px solid currentColor;padding:.4rem 1rem}.road-sign span{font:700 clamp(1.4rem,3vw,3.2rem)/.9 "Libre Franklin",sans-serif;letter-spacing:-.1em;margin:1rem 0}.road-sign i{font:.6rem "DM Mono",monospace;font-style:normal}.road h2{font-size:clamp(3.5rem,6vw,6.7rem)}.road-copy>p:last-child{max-width:350px;line-height:1.65;margin-top:2rem;font-size:.9rem}.seasons{padding:10vw 7vw;display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:3vw}.seasons>p{border-top:1px solid var(--ink);padding-top:1rem}.seasons div{border-top:1px solid var(--ink);padding-top:1rem}.seasons span{font:1.4rem "Old Standard TT",serif;color:var(--orange)}.seasons h3{font:500 2.2rem/.9 "Old Standard TT",serif;letter-spacing:-.08em;margin:3rem 0 1rem}.seasons div p{font-size:.76rem;line-height:1.6}.contact{background:var(--ink);color:var(--paper);padding:11vw 8vw;display:grid;grid-template-columns:1.2fr .8fr;gap:5vw}.contact h2{font-size:clamp(3.8rem,7vw,8rem)}.contact div:last-child{align-self:end;border-top:1px solid #7b837c;padding-top:1rem}.contact a{display:block;color:var(--paper);text-decoration:none;font:400 clamp(1.6rem,3vw,3rem) "Old Standard TT",serif;margin-bottom:2rem}.contact a:nth-child(2){font:.65rem "DM Mono",monospace;letter-spacing:.1em;text-transform:uppercase}.contact div p{font-size:.72rem;line-height:1.6;color:#c8cdc6;max-width:300px}footer{display:flex;justify-content:space-between;align-items:center;padding:2rem 4vw;font-size:.65rem}footer>a:last-child{color:inherit;text-decoration:none;font:.62rem "DM Mono",monospace}@media(max-width:700px){header{height:67px;padding:0 6vw}nav{display:none}.phone{font-size:.55rem}.hero>div{padding:26vh 7vw}.hero h1{font-size:4.2rem}.elevation{font-size:3rem;right:7vw}.feature{display:block;padding:18vw 7vw}.feature h2{font-size:3.4rem;margin-top:3rem}.feature figure{margin-top:3rem}.feature img{height:72vw}.road{display:block;padding:20vw 7vw}.road-sign{width:65vw}.road-copy{margin-top:13vw}.road h2{font-size:4rem}.seasons{display:block;padding:18vw 7vw}.seasons>p{margin-bottom:5rem}.seasons div{margin-top:3rem}.seasons h3{margin:1.5rem 0 .7rem}.contact{display:block;padding:18vw 7vw}.contact h2{font-size:4rem}.contact div:last-child{margin-top:15vw}footer{display:block;padding:8vw 7vw}footer p{margin:1rem 0}}
-main>section{animation:ridge-reveal .9s cubic-bezier(.2,.75,.2,1) both}main>section:nth-child(2){animation-delay:.1s}main>section:nth-child(3){animation-delay:.2s}main>section:nth-child(4){animation-delay:.3s}a,button{transition:transform .25s ease,opacity .25s ease}a:hover,button:hover{transform:translateY(-2px)}@keyframes ridge-reveal{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}@media(prefers-reduced-motion:reduce){main>section{animation:none!important}a,button{transition:none}}
-/* Scroll-driven reveal pattern adapted from https://codepen.io/oscar-jite/pen/qBzwOVq and the IntersectionObserver API. */@supports(animation-timeline:view()){main>section{animation-timeline:view(block);animation-range:entry 0% cover 34%;animation-iteration-count:1}}
+:root {
+  --paper: #f1eee5;
+  --ink: #26312c;
+  --orange: #df582d;
+  --moss: #63775a;
+  --line: #b5b7ae;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Libre Franklin", sans-serif;
+}
+header {
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4vw;
+  border-bottom: 1px solid var(--line);
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  color: #fff;
+}
+.sign {
+  font:
+    700 1rem/0.9 "Libre Franklin",
+    sans-serif;
+  letter-spacing: -0.07em;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+.sign small {
+  font:
+    0.45rem "DM Mono",
+    monospace;
+  letter-spacing: 0.1em;
+  display: block;
+  margin-bottom: 3px;
+}
+.sign i {
+  font:
+    0.52rem "DM Mono",
+    monospace;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  position: absolute;
+  left: 102%;
+  top: 45%;
+}
+nav {
+  display: flex;
+  gap: 2rem;
+}
+nav a,
+.phone {
+  font:
+    0.62rem "DM Mono",
+    monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: inherit;
+  text-decoration: none;
+}
+.phone {
+  border: 1px solid currentColor;
+  padding: 0.6rem 0.8rem;
+}
+.hero {
+  min-height: 100vh;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+}
+.hero figure {
+  position: absolute;
+  margin: 0;
+  inset: 0;
+}
+.hero figure:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(20, 30, 26, 0.82),
+    rgba(20, 30, 26, 0.15) 70%
+  );
+}
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.65);
+}
+.hero > div {
+  position: relative;
+  z-index: 1;
+  padding: 25vh 9vw;
+}
+.hero p,
+.label {
+  font:
+    0.62rem "DM Mono",
+    monospace;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  margin: 0 0 2rem;
+}
+.hero h1,
+.feature h2,
+.road h2,
+.contact h2 {
+  font:
+    400 clamp(3.6rem, 8vw, 9rem)/0.85 "Old Standard TT",
+    serif;
+  letter-spacing: -0.08em;
+  margin: 0;
+}
+.hero h1 em,
+.road h2 em,
+.contact h2 em {
+  color: #ffb590;
+}
+.hero > div a {
+  display: inline-block;
+  margin-top: 6rem;
+  color: #fff;
+  text-decoration: none;
+  font:
+    0.63rem "DM Mono",
+    monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.hero > div a b {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  color: #ffb590;
+}
+.elevation {
+  position: absolute;
+  right: 4vw;
+  bottom: 4vw;
+  font:
+    700 clamp(3rem, 7vw, 7rem) "Libre Franklin",
+    sans-serif;
+  letter-spacing: -0.11em;
+  opacity: 0.85;
+}
+.feature {
+  padding: 12vw 7vw;
+  display: grid;
+  grid-template-columns: 12% 1fr 40%;
+  gap: 5vw;
+}
+.line-number {
+  font:
+    2rem "Old Standard TT",
+    serif;
+  color: var(--orange);
+  border-top: 2px solid var(--orange);
+  padding-top: 0.5rem;
+}
+.feature h2 {
+  font-size: clamp(3.2rem, 5vw, 5.6rem);
+}
+.feature div > p:not(.label) {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  max-width: 380px;
+  margin-top: 3rem;
+}
+.feature figure {
+  margin: 0;
+  align-self: end;
+}
+.feature img {
+  width: 100%;
+  height: 34vw;
+  object-fit: cover;
+  filter: saturate(0.65);
+}
+figcaption {
+  font:
+    0.6rem "DM Mono",
+    monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 0.6rem;
+}
+.road {
+  background: var(--moss);
+  color: var(--paper);
+  display: grid;
+  grid-template-columns: 45% 55%;
+  padding: 11vw 10vw;
+  align-items: center;
+}
+.road-sign {
+  width: min(30vw, 360px);
+  aspect-ratio: 1/1;
+  background: var(--orange);
+  border: 7px solid var(--paper);
+  outline: 1px solid var(--orange);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.road-sign b {
+  font:
+    700 1.1rem "Libre Franklin",
+    sans-serif;
+  border-bottom: 2px solid currentColor;
+  padding: 0.4rem 1rem;
+}
+.road-sign span {
+  font:
+    700 clamp(1.4rem, 3vw, 3.2rem)/0.9 "Libre Franklin",
+    sans-serif;
+  letter-spacing: -0.1em;
+  margin: 1rem 0;
+}
+.road-sign i {
+  font:
+    0.6rem "DM Mono",
+    monospace;
+  font-style: normal;
+}
+.road h2 {
+  font-size: clamp(3.5rem, 6vw, 6.7rem);
+}
+.road-copy > p:last-child {
+  max-width: 350px;
+  line-height: 1.65;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+.seasons {
+  padding: 10vw 7vw;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr 1fr;
+  gap: 3vw;
+}
+.seasons > p {
+  border-top: 1px solid var(--ink);
+  padding-top: 1rem;
+}
+.seasons div {
+  border-top: 1px solid var(--ink);
+  padding-top: 1rem;
+}
+.seasons span {
+  font:
+    1.4rem "Old Standard TT",
+    serif;
+  color: var(--orange);
+}
+.seasons h3 {
+  font:
+    500 2.2rem/0.9 "Old Standard TT",
+    serif;
+  letter-spacing: -0.08em;
+  margin: 3rem 0 1rem;
+}
+.seasons div p {
+  font-size: 0.76rem;
+  line-height: 1.6;
+}
+.contact {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 11vw 8vw;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 5vw;
+}
+.contact h2 {
+  font-size: clamp(3.8rem, 7vw, 8rem);
+}
+.contact div:last-child {
+  align-self: end;
+  border-top: 1px solid #7b837c;
+  padding-top: 1rem;
+}
+.contact a {
+  display: block;
+  color: var(--paper);
+  text-decoration: none;
+  font:
+    400 clamp(1.6rem, 3vw, 3rem) "Old Standard TT",
+    serif;
+  margin-bottom: 2rem;
+}
+.contact a:nth-child(2) {
+  font:
+    0.65rem "DM Mono",
+    monospace;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.contact div p {
+  font-size: 0.72rem;
+  line-height: 1.6;
+  color: #c8cdc6;
+  max-width: 300px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4vw;
+  font-size: 0.65rem;
+}
+footer > a:last-child {
+  color: inherit;
+  text-decoration: none;
+  font:
+    0.62rem "DM Mono",
+    monospace;
+}
+@media (max-width: 700px) {
+  header {
+    height: 67px;
+    padding: 0 6vw;
+  }
+  nav {
+    display: none;
+  }
+  .phone {
+    font-size: 0.55rem;
+  }
+  .hero > div {
+    padding: 26vh 7vw;
+  }
+  .hero h1 {
+    font-size: 4.2rem;
+  }
+  .elevation {
+    font-size: 3rem;
+    right: 7vw;
+  }
+  .feature {
+    display: block;
+    padding: 18vw 7vw;
+  }
+  .feature h2 {
+    font-size: 3.4rem;
+    margin-top: 3rem;
+  }
+  .feature figure {
+    margin-top: 3rem;
+  }
+  .feature img {
+    height: 72vw;
+  }
+  .road {
+    display: block;
+    padding: 20vw 7vw;
+  }
+  .road-sign {
+    width: 65vw;
+  }
+  .road-copy {
+    margin-top: 13vw;
+  }
+  .road h2 {
+    font-size: 4rem;
+  }
+  .seasons {
+    display: block;
+    padding: 18vw 7vw;
+  }
+  .seasons > p {
+    margin-bottom: 5rem;
+  }
+  .seasons div {
+    margin-top: 3rem;
+  }
+  .seasons h3 {
+    margin: 1.5rem 0 0.7rem;
+  }
+  .contact {
+    display: block;
+    padding: 18vw 7vw;
+  }
+  .contact h2 {
+    font-size: 4rem;
+  }
+  .contact div:last-child {
+    margin-top: 15vw;
+  }
+  footer {
+    display: block;
+    padding: 8vw 7vw;
+  }
+  footer p {
+    margin: 1rem 0;
+  }
+}
+main > section {
+  animation: ridge-reveal 0.9s cubic-bezier(0.2, 0.75, 0.2, 1) both;
+}
+main > section:nth-child(2) {
+  animation-delay: 0.1s;
+}
+main > section:nth-child(3) {
+  animation-delay: 0.2s;
+}
+main > section:nth-child(4) {
+  animation-delay: 0.3s;
+}
+a,
+button {
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease;
+}
+a:hover,
+button:hover {
+  transform: translateY(-2px);
+}
+@keyframes ridge-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  main > section {
+    animation: none !important;
+  }
+  a,
+  button {
+    transition: none;
+  }
+}
+/* Scroll-driven reveal pattern adapted from https://codepen.io/oscar-jite/pen/qBzwOVq and the IntersectionObserver API. */
+@supports (animation-timeline: view()) {
+  main > section {
+    animation-timeline: view(block);
+    animation-range: entry 0% cover 34%;
+    animation-iteration-count: 1;
+  }
+}
+.site-details {
+  position: relative;
+  z-index: 2;
+  padding: clamp(4.5rem, 9vw, 10rem) clamp(1.25rem, 7vw, 7rem);
+  background: #171a19;
+  color: #f7f1e5;
+  overflow: hidden;
+}
+.site-details:before {
+  content: "";
+  position: absolute;
+  width: 45vw;
+  height: 45vw;
+  border: 1px solid #ffffff25;
+  border-radius: 50%;
+  right: -15vw;
+  top: -20vw;
+  animation: details-orbit 18s linear infinite;
+}
+.site-details-inner {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+.site-details-kicker {
+  font:
+    10px/1.2 ui-monospace,
+    monospace;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent, #e16b45);
+  margin: 0 0 1.5rem;
+}
+.site-details h2 {
+  font:
+    clamp(2.8rem, 6vw, 7rem)/0.82 Georgia,
+    serif;
+  letter-spacing: -0.07em;
+  margin: 0 0 1rem;
+}
+.site-details h2 em {
+  font-style: italic;
+  color: var(--accent, #e16b45);
+}
+.site-details-intro {
+  font-size: clamp(1rem, 1.4vw, 1.3rem);
+  line-height: 1.7;
+  max-width: 720px;
+  color: #d5d0c6;
+}
+.site-details-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  margin-top: 3.5rem;
+  border: 1px solid #ffffff26;
+  background: #ffffff26;
+}
+.site-details-card {
+  min-height: 185px;
+  padding: 1.5rem;
+  background: #171a19;
+}
+.site-details-card small {
+  display: block;
+  font:
+    10px ui-monospace,
+    monospace;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent, #e16b45);
+  margin-bottom: 1.5rem;
+}
+.site-details-card strong {
+  display: block;
+  font:
+    1.45rem Georgia,
+    serif;
+  margin-bottom: 0.7rem;
+}
+.site-details-card p {
+  margin: 0;
+  color: #c5c0b7;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+.site-details-card a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.site-details-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 2.2rem;
+}
+.site-details-actions a {
+  display: inline-flex;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid #ffffff55;
+  font:
+    10px ui-monospace,
+    monospace;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  transition:
+    transform 0.25s,
+    background 0.25s;
+}
+.site-details-actions a:hover {
+  background: var(--accent, #e16b45);
+  transform: translateY(-3px);
+}
+footer {
+  position: relative;
+  display: block;
+}
+.footer-local {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  width: 100%;
+  padding: 1.5rem 0;
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  margin-bottom: 1.5rem;
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+.footer-local strong {
+  display: block;
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+.footer-local a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+@keyframes details-orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 800px) {
+  .site-details-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .site-details-card {
+    min-height: 155px;
+  }
+  .footer-local {
+    grid-template-columns: 1fr;
+  }
+  .site-details {
+    padding: 4.5rem 7vw;
+  }
+}
+@media (max-width: 520px) {
+  .site-details-grid {
+    grid-template-columns: 1fr;
+  }
+  .site-details-card {
+    min-height: 0;
+  }
+  .site-details h2 {
+    font-size: 14vw;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-details:before {
+    animation: none;
+  }
+  .site-details-actions a {
+    transition: none;
+  }
+}
