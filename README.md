@@ -14,4 +14,6 @@ Vitrine statique pour le **Refuge du Col du Noyer** (dit Refuge Napoléon), rest
 - GitHub : https://github.com/AMWEBDESIGNER/refuge-col-du-noyer
 - Pages : https://refuge-col-du-noyer.pages.dev
 
-Avant utilisation commerciale, faire valider logo, photos, contacts et calendrier d’ouverture par l’établissement. Maquette indépendante sans affiliation.
+## Parcours livré
+
+L’accueil est complété par `maison.html` et `infos.html`, avec l’histoire du lieu, la saison publiée, l’itinéraire et l’appel direct. Avant utilisation commerciale, faire valider logo, photos, contacts et calendrier d’ouverture par l’établissement. Maquette indépendante sans affiliation.
