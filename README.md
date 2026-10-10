@@ -17,3 +17,7 @@ Vitrine statique pour le **Refuge du Col du Noyer** (dit Refuge Napoléon), rest
 ## Parcours livré
 
 L’accueil est complété par `maison.html` et `infos.html`, avec l’histoire du lieu, la saison publiée, l’itinéraire et l’appel direct. Avant utilisation commerciale, faire valider logo, photos, contacts et calendrier d’ouverture par l’établissement. Maquette indépendante sans affiliation.
+
+## Motion design et provenance du code
+
+Animations réalisées en CSS vanilla, avec respect de `prefers-reduced-motion`, et une révélation progressive inspirée du pattern public [Scroll animation: IntersectionObserver and CSS](https://codepen.io/oscar-jite/pen/qBzwOVq). La logique reste locale, légère et adaptée à l’identité de chaque établissement ; aucune dépendance payante ni contenu généré n’est requis.
